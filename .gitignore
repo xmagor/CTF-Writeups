@@ -1,0 +1,9 @@
+.obsidian
+plantillas/
+
+
+# diagrams files
+*.drawio
+
+# In development
+*.dev
