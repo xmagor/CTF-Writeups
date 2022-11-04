@@ -76,15 +76,15 @@ Analizing the crypto system I list the whole variables to check where is know an
 | c1       | Yes  | `g * y % p`              |
 | c2       | Yes  | `m * s % p`              |
 
-Look that `c2` is the encrypted representation of the flag  (`m` value), and the fact that the private key is not use it seems that maybe is possible reverse the encryption. So lets write the `c2` equation in modular notation:$$m*s = c_2 \bmod p$$
+Look that `c2` is the encrypted representation of the flag  (`m` value), and the fact that the private key is not use it seems that maybe is possible reverse the encryption. So lets write the `c2` equation in modular notation: $$m*s = c_2 \bmod p$$
 
 In modular aritmethic we can move terms from one side of the equation to another, but it is not the case with factors, we need to multiply by the [inverse modular](). so the inverse modular of $m$ is written  $m^{-1}$  Knowing that, we can clear  $m^{-1}$  $$c_2^{-1}*s = m^{-1}\bmod p$$
 So we need is calculate `s` and the inverse modular of `c2`. 
 
-To calculate `s` we can use the definition.$$h*y = s\bmod p$$
+To calculate `s` we can use the definition. $$h*y = s\bmod p$$
 
-Althougth we dont know `y` , but we can use `c1` to calcultate `y`.$$g*y = c_1 \bmod p$$
-Solving the equation we can calculate the inverse modular of`y`.$$g*c_1^{-1} = y^{-1} \bmod p$$
+Althougth we dont know `y` , but we can use `c1` to calcultate `y`. $$g*y = c_1 \bmod p$$
+Solving the equation we can calculate the inverse modular of`y`. $$g*c_1^{-1} = y^{-1} \bmod p$$
 Now we can calculate the inverse modular of $y^{-1}$  to obtain $y$ . Then calculate $s$ and with $s$   
 and $c_2^{-1}$  calculated $m^{-1}$. To finalize calcuolating the inverse modular of $m^{-1}$ to obtain $m$.
 
