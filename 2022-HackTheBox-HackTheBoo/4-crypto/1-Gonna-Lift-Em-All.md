@@ -84,16 +84,14 @@ So we need is calculate `s` and the inverse modular of `c2`.
 To calculate `s` we can use the definition. $$h*y = s\bmod p$$
 
 Althougth we dont know `y` , but we can use `c1` to calcultate `y`. $$g*y = c_1 \bmod p$$
+
 Solving the equation we can calculate the inverse modular of`y`. $$g*c_1^{-1} = y^{-1} \bmod p$$
+
 Now we can calculate the inverse modular of $y^{-1}$  to obtain $y$ . Then calculate $s$ and with $s$   
 and $c_2^{-1}$  calculated $m^{-1}$. To finalize calcuolating the inverse modular of $m^{-1}$ to obtain $m$.
 
-
-
-
 > 1. To calculate the $x^{-1}$ ( the inverse modular of $x$ ) we can use the module `pycripto` :[Crypto.Util.number.inverse method]() in Python3
 > 2. The notation $a*b = c \bmod n$ can be rewirte in python like `c = a*b%n`
-
 
 To install `pycrypto` only have to verify the python version:
 
