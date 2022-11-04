@@ -107,7 +107,11 @@ So assuming that the` millerRabin()` function is well implemented. We need to se
 
 The answers to [generate a false positive prime number in the rabin miller primality test](https://math.stackexchange.com/questions/1528789/generating-false-positives-to-the-rabin-miller-primality-test#1528801) says that a [Carmichael number](https://en.wikipedia.org/wiki/Carmichael_number)can generate a false positive. So I read to see how I can generate a charmicael number and found the equation in the [overview](https://en.wikipedia.org/wiki/Carmichael_number#Overview) show in the image below:
 
-![[Pasted image 20221023142022.png]]
+
+>**Note**: The challenge title is **Fast Carmichael**. They give us that clue, altought I ignore the title so I noticed it when I was written this writeup xD.
+
+
+![2-carcmicahel.png](./static/2-carcmicahel.png)
 
 So I open the python interpreter to check the equation:
 ```python
