@@ -45,7 +45,8 @@ Note that we see how the `out.txt` was made in the `main()` fucntion. first call
 
 >**Note**:  if you dont know what are the `p, q, N` generated for  in ➊ , check this resource [Understanding rsa algorithm](https://www.tutorialspoint.com/cryptography_with_python/cryptography_with_python_understanding_rsa_algorithm.htm) There explain the RSA in a clear way.
 
-The general RSA encryption has the following structure:
+The general RSA encryption has the following structure: 
+
 $$ Message^{e} = cipher \bmod N$$
 
 Where $N = p*q$  ; with  $p$ , $q$ random primes number
@@ -66,9 +67,11 @@ def encrypt(m, N, f):
 Check that it generate two `e` values ➊ (this also is part of the RSA encryption) and create 2 cipher representation of $m$, one in ➋ with $e_1$ and other in ➌ with $e_2$.
 
 So we have a case with the RSA encryption of the same data with two diferents exponents $e$. Its looks like there will be a vulnerability, but lets see in more detail how the encryption was made written the $c_1$ equation in mathematical notation:
+
 $$ f^{e1} + m = c_1 \bmod N$$
 
 But $f$ we know that is $p$ so replace it in $c_1$ and $c_2$ equations: 
+
 $$
 \begin{gather}
 p^{e_1} + m = c_1 \bmod N \\
@@ -83,12 +86,15 @@ Its a big mistake use $p$  in this way inside the cipher function. Becase all th
 ## Foothold
 
 Look what happen if we substract $c_1 - c_2$ :
+
 $$ c_1 - c_2 = ((p^{e_1} + m) - (p^{e_2} + m) )\bmod N$$
 
 This cancels $m$:
+
 $$ c_1 - c_2 = (p^{e_1} - p^{e_2})\bmod N$$
 
 It turns into:
+
 $$ c_1 - c_2 = p^{e_1 - e_2}\bmod N$$
 
 So the trick is to note that  both  $p^{e_1 - e_2}$ and $N$ are multiple of $p$. Thats means if we calculate the [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor)  we will found $P$ .
@@ -102,11 +108,13 @@ In Pyhton I use [gmpy2](https://gmpy2.readthedocs.io/en/latest/) library to calc
 ```
 
 And with $P$ we can calculate $m$ if we isolate it from equation $c_1$ (or $c_2$) :
+
 $$
 p^{e_1} -c_1 = -m \bmod N \\
 $$
 
 But, note that if we want remove the negative from $-m$  you have to take into account that In modular aritmethic we can move terms from one side of the equation to another, but it is not the case with factors, we need to multiply by the [**modular multiplicative inverse**](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse). In this case to remove $-1$ . I am gonna call to its modular multiplicative inverse like $neg_{inv}$ :
+
 $$
 (p^{e_1} -c_1)*neg_{inv} = m \bmod N
 $$
