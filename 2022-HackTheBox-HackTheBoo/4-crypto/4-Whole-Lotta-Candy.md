@@ -254,7 +254,7 @@ Options:
 >
 ```
 
-> Note that the flag start with `k2B` ,  it seems that something corrupted the first bytes, but we can complet it due to we know that is `HTB`, If i found why this happend i will share it with you.
+> **Note**: that the flag start with `k2B` ,  it seems that something corrupted the first bytes, but we can complet it due to we know that is `HTB`, If i found why this happend i will share it with you.
 
 
 ## Notes
