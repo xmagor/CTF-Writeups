@@ -4,6 +4,7 @@ plantillas/
 
 # diagrams files
 *.drawio
+*.xlsx
 
 # In development
 *.dev
