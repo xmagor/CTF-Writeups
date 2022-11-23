@@ -30,7 +30,7 @@ From my personal perpesctive I think that **the reversing categorie was the easi
 ### [1-Web](./1-web/README.md)
 
 | Name                                                  | Materials                                 | Difficulty | Solved |
-| ----------------------------------------------------- | ----------------------------------------- | ---------- | ------ |
+| ----------------------------------------------------- | ----------------------------------------- | :----------: | :------: |
 | [Evaluation Deck](./1-web/1-Evaluation-Deck.md)         | `Spam docker` & `web_evaluation_deck.zip` | Easy       | ✅     |
 | [Spookifier](./1-web/2-Spookifier.md)                   | `Spam docker` & `web_spookifier.zip`      | Easy       | ✅     |
 | [Horror Feeds](./1-web/3-Horror-Feeds.md)               | `Spam docker` & `web_horror_feeds.zip`    | Easy       | ✅     |
@@ -40,7 +40,7 @@ From my personal perpesctive I think that **the reversing categorie was the easi
 ### [2-Pwn](./2-pwn/README.md)
 
 | Name                                      | Materials                               | Difficulty | Solved |
-| ----------------------------------------- | --------------------------------------- | ---------- | ------ |
+| ----------------------------------------- | --------------------------------------- | :----------: | :------: |
 | [Pumpkin Stand](./2-pwn/1-Pumpkin-Stand.md) | `Spam docker` & `pwn_pumpkin_stand.zip` | Easy       | ✅     |
 | [Entity](./2-pwn/2-Entity.md)               | `Spam docker` & `pwn_entity.zip`        | Easy       | ✅     |
 | [Pumpking](./2-pwn/3-Pumpking.md)           | `Spam docker` & `pwn_pumpking.zip`      | Easy       | ✅     |
@@ -51,7 +51,7 @@ From my personal perpesctive I think that **the reversing categorie was the easi
 ### [3-Reversing](./3-reversing/README.md)
 
 | Name                                                 | Materials                              | Difficulty | Solved |
-| ---------------------------------------------------- | -------------------------------------- | ---------- | ------ |
+| ---------------------------------------------------- | -------------------------------------- | :----------: | :------: |
 | [Cult Meeting](./3-reversing/1-Cult-Meeting.md)      | `Spam docker` & `rev_cult_meeting.zip` | Easy       | ✅     |
 | [EncodedPayload](./3-reversing/2-EncodedPayload.md)  | `rev_encodedpayload.zip`               | Easy       | ✅     |
 | [Ghost Wrangler](./3-reversing/3-Ghost-Wrangler.md)  | `rev_ghost_wrangler.zip`               | Easy       | ✅     |
@@ -62,7 +62,7 @@ From my personal perpesctive I think that **the reversing categorie was the easi
 ### [4-Crypto](./4-crypto/README.md)
 
 | Name                                                   | Materials                                      | Difficulty | Solved |
-| ------------------------------------------------------ | ---------------------------------------------- | ---------- | ------ |
+| ------------------------------------------------------ | ---------------------------------------------- | :----------: | :------: |
 | [Gonna-Lift-Em-All](./4-crypto/1-Gonna-Lift-Em-All.md) | `crypto_gonna-lift-em-all.zip`                 | Easy       | ✅     |
 | [Fast Carmichael](./4-crypto/2-Fast-Carmichael.md)     | `Spam docker` & `crypto_fast_carmichael.zip`   | Easy       | ✅     |
 | [Spooky RSA](./4-crypto/3-Spooky-RSA.md)               | `crypto_spooky_rsa.zip`                        | Easy       | ✅     |
@@ -73,7 +73,7 @@ From my personal perpesctive I think that **the reversing categorie was the easi
 ### [5-Forensics](./5-forensics/README.md)
 
 | Name                                                            | Materials                                 | Difficulty | Solved |
-| --------------------------------------------------------------- | ----------------------------------------- | ---------- | ------ |
+| --------------------------------------------------------------- | ----------------------------------------- | :----------: | :------: |
 | [Wrong Spooky Season](./5-forensics/1-Wrong-Spooky-Season.md)   | `forensics_wrong_spooky_season.zip`       | Easy       | ✅     |
 | [Trick or Breach](./5-forensics/2-Trick-or-Breach.md)           | `forensics_trick_or_breach.zip`           | Easy       | ✅     |
 | [Halloween Invitation](./5-forensics/3-Halloween-Invitation.md) | `forensics_halloween_invitation.zip`      | Easy       | ✅     |

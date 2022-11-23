@@ -29,7 +29,7 @@ So I hope you enjoy it and you could clarify your doubts and learn.
 ### Lastest CTF events
 
 | Event                                                | Date                                | Plataform                                 | Difficult         | Team size | Details                                                              | 
-| ---------------------------------------------------- | ----------------------------------- | ----------------------------------------- | ----------------- | --------- | --------------------------------------------------------------------- |
+| :----------------------------------------------------: | :-----------------------------------: | :-----------------------------------------: | :-----------------: | :---------: | --------------------------------------------------------------------- |
 | [HackTheBoo](./2022-HackTheBox-HackTheBoo/README.md) | 22 Oct, 08:00, 2022 - 27 Oct, 08:00 | [HackTheBox](https://ctf.hackthebox.com/) | Beginner Friendly | 1/1       | [Overview](https://ctf.hackthebox.com/event/details/hack-the-boo-637) |
 |                                                      |                                     |                                           |                   |           |                                                                       |
 
