@@ -1,3 +1,6 @@
+
+# Cryptography Challenges
+
 ## [Gonna-Lift-Em-All](./1-Gonna-Lift-Em-All.md)
 
 Quick, there's a new custom Pokemon in the bush called "The Custom Pokemon". Can you find out what its weakness is and capture it?
@@ -17,7 +20,7 @@ Materials
 
 Difficulty: Easy
 
-## [Spooky RSA](3-Spooky-RSA.md)
+## [Spooky RSA](./3-Spooky-RSA.md)
 
 It was a Sunday evening when, after years, you managed to understand how RSA works. Unfortunately, that changed when the worst villain ever decided to dress up like RSA and scare people who wanted to learn more about cryptography. But his custom uniform has a hole in it. Can you find it?
 

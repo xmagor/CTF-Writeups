@@ -1,5 +1,6 @@
+# Web Challenges
 
-Below you can read the description, materials and difficulty of each of the web challenges to the HackTheBoo 2022:
+Below you can read the description, materials and difficulty of each of the web challenges to the HackTheBoo 2022
 
 ## [Evaluation Deck](./1-Evaluation-Deck.md)
 
