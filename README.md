@@ -1,19 +1,17 @@
-
 # CTF Writeups
 
 ---
 ⚠️**Disclaimer**⚠️:  
 - All information presented here is for educational purposes. I am not responsible for the use or damage it may cause.
-- I am only a guy who has participed in some CTFs of differents plattaforms. I am fully grateful with them to allow anyone can learn and practice for free.
-- I dont have any relationship with the plataforms where I have participied, more other than a player of the free CTFs events.
+- I am only a guy who has participated in some CTFs of different platforms. I am fully grateful to them to allow anyone can learn and practice for free.
+- I don't have any relationship with the platforms where I have participated, other than as a player of the free CTFs events.
 - I share the content once the events are finalized (Probably with a delay while I prepare the documentation).
-- I apologize in advance for the spelling and/or grammatical erros. I will try to correct it over time.
 
 ---
 
-This repositore will store write-ups from some CTF in which I have participed.
+This repository will store write-ups from some CTF in which I have participated.
 
-The directory structure follow this rule:
+The directory structure follows this rule:
 
 ```
 {Year}-{Plataform}-{CTF Name}
@@ -22,7 +20,7 @@ The directory structure follow this rule:
 So I hope you enjoy it and you could clarify your doubts and learn. 
 
 
-> Do it for the pleasure of challenge yourself.
+> Do it for the pleasure of challenging yourself.
 
 
 
